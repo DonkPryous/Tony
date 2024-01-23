@@ -1,0 +1,41 @@
+display_information:
+  name: Tony
+  description: Little buddy to bail you out
+  background_color: "#000000"
+features:
+  bot_user:
+    display_name: Tony
+    always_online: true
+  slash_commands:
+    - command: /branch
+      url: http://game-dev.tian2.org:8500/branch
+      description: Following command lets you check, change or list existing branches
+      usage_hint: (locale|core|patcher|all) (check|switch|list)
+      should_escape: false
+    - command: /server
+      url: http://game-dev.tian2.org:8500/server
+      description: Used for server management
+      usage_hint: (core|quest|patcher|status|reload) (rebuild|start|stop|restart|update|locale|protos|all)
+      should_escape: false
+    - command: /patcher
+      url: http://game-dev.tian2.org:8500/patcher
+      description: Command to amend patcher configuration
+      usage_hint: (check|switch|update) branch
+      should_escape: false
+oauth_config:
+  scopes:
+    user:
+      - channels:history
+      - channels:read
+      - chat:write
+      - groups:history
+      - groups:write
+      - users:read
+      - groups:read
+    bot:
+      - incoming-webhook
+      - commands
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
