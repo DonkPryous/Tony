@@ -3,6 +3,8 @@
 
 Acronym of _**The one named yummy**_
 
+[![Python package](https://github.com/DonkPryous/Tony/actions/workflows/python-package.yml/badge.svg)](https://github.com/DonkPryous/Tony/actions/workflows/python-package.yml) [![Pylint](https://github.com/DonkPryous/Tony/actions/workflows/pylint.yml/badge.svg)](https://github.com/DonkPryous/Tony/actions/workflows/pylint.yml) [![CodeQL](https://github.com/DonkPryous/Tony/actions/workflows/codeql.yml/badge.svg)](https://github.com/DonkPryous/Tony/actions/workflows/codeql.yml)
+
 Overview
 -----
 
